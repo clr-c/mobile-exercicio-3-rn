@@ -1,3 +1,5 @@
-export const sum = (a: number, b: number): number => {
-    return 0
+export class AddExercise {
+    add(a: number, b: number): number {
+        return a + b;
+    }
 }
